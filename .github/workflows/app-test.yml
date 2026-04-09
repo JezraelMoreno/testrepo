@@ -3,9 +3,9 @@ name: Sample App Test
 on: push
 
 jobs:
-  sample app tests:
+  sample-app-tests:
     name: "Run Test Using Jest"
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
