@@ -4,7 +4,7 @@ const app = express();
 // app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    res.send('mello from sample app');
+    res.send('Hello from sample app Hector');
 });
 
 app.get("/name/:name", (req, res) => {
